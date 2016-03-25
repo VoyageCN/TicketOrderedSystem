@@ -1,0 +1,249 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		047A3A811CA298C5007C6484 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 047A3A801CA298C5007C6484 /* main.c */; };
+		047A3A891CA2B621007C6484 /* OrderTicket.c in Sources */ = {isa = PBXBuildFile; fileRef = 047A3A871CA2B620007C6484 /* OrderTicket.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		047A3A7B1CA298C5007C6484 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		047A3A7D1CA298C5007C6484 /* TicketOrderedSystem */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TicketOrderedSystem; sourceTree = BUILT_PRODUCTS_DIR; };
+		047A3A801CA298C5007C6484 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		047A3A871CA2B620007C6484 /* OrderTicket.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OrderTicket.c; sourceTree = "<group>"; };
+		047A3A881CA2B620007C6484 /* OrderTicket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderTicket.h; sourceTree = "<group>"; };
+		047A3A8A1CA2B80A007C6484 /* customer.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = customer.dat; sourceTree = "<group>"; };
+		047A3A8C1CA2C07C007C6484 /* airLine.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = airLine.dat; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047A3A7A1CA298C5007C6484 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		047A3A741CA298C5007C6484 = {
+			isa = PBXGroup;
+			children = (
+				047A3A7F1CA298C5007C6484 /* TicketOrderedSystem */,
+				047A3A7E1CA298C5007C6484 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		047A3A7E1CA298C5007C6484 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047A3A7D1CA298C5007C6484 /* TicketOrderedSystem */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047A3A7F1CA298C5007C6484 /* TicketOrderedSystem */ = {
+			isa = PBXGroup;
+			children = (
+				047A3A801CA298C5007C6484 /* main.c */,
+				047A3A871CA2B620007C6484 /* OrderTicket.c */,
+				047A3A881CA2B620007C6484 /* OrderTicket.h */,
+				047A3A8A1CA2B80A007C6484 /* customer.dat */,
+				047A3A8C1CA2C07C007C6484 /* airLine.dat */,
+			);
+			path = TicketOrderedSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047A3A7C1CA298C5007C6484 /* TicketOrderedSystem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047A3A841CA298C5007C6484 /* Build configuration list for PBXNativeTarget "TicketOrderedSystem" */;
+			buildPhases = (
+				047A3A791CA298C5007C6484 /* Sources */,
+				047A3A7A1CA298C5007C6484 /* Frameworks */,
+				047A3A7B1CA298C5007C6484 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TicketOrderedSystem;
+			productName = TicketOrderedSystem;
+			productReference = 047A3A7D1CA298C5007C6484 /* TicketOrderedSystem */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047A3A751CA298C5007C6484 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "尚学堂";
+				TargetAttributes = {
+					047A3A7C1CA298C5007C6484 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 047A3A781CA298C5007C6484 /* Build configuration list for PBXProject "TicketOrderedSystem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 047A3A741CA298C5007C6484;
+			productRefGroup = 047A3A7E1CA298C5007C6484 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047A3A7C1CA298C5007C6484 /* TicketOrderedSystem */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047A3A791CA298C5007C6484 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047A3A891CA2B621007C6484 /* OrderTicket.c in Sources */,
+				047A3A811CA298C5007C6484 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		047A3A821CA298C5007C6484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		047A3A831CA298C5007C6484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		047A3A851CA298C5007C6484 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		047A3A861CA298C5007C6484 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047A3A781CA298C5007C6484 /* Build configuration list for PBXProject "TicketOrderedSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A3A821CA298C5007C6484 /* Debug */,
+				047A3A831CA298C5007C6484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047A3A841CA298C5007C6484 /* Build configuration list for PBXNativeTarget "TicketOrderedSystem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047A3A851CA298C5007C6484 /* Debug */,
+				047A3A861CA298C5007C6484 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 047A3A751CA298C5007C6484 /* Project object */;
+}
